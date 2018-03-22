@@ -1,0 +1,269 @@
+@charset "UTF-8";
+@font-face {
+	font-family:'FonteLogo';
+	src: url("bubblegum-sans-regular.otf");
+}
+
+/* Interface inicial */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #031c27;
+	color: black;	
+}
+
+div#interface {
+	width: 910px;
+	background-color: #dfe5e8;
+	margin: -10px auto 0px auto;
+	box-shadow: 1px 1px 10px solid black;
+	padding: 25px;
+}
+
+hr {
+	margin-top: 60px;
+	margin-left: 0px;
+	padding: 0px;
+	width: 880px;
+    color: #0d3e79;
+    background-color: #0d3e79;
+    height: 3px;
+}
+
+/* Textos iniciais */
+header#cabecalho h1 {
+	font-family: 'FonteLogo', sans-serif;
+	font-size:30px;
+	color: #031c27; 
+	text-shadow: 0px 1px 4px rgba(0,0,0,.6);
+	padding: 0px;
+	margin-bottom: 0px;
+}
+
+header#cabecalho img#icone {
+	display: block;
+	position: absolute;
+	left: 890px;
+	top: 25px;
+}
+
+hgroup#titulo h1 {
+	color: #031c27;
+	text-shadow: 1px 2px 5px rgba(0,0,0,.9);
+	text-align: left;
+	font-size: 70px;
+	margin-left: 30px;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+
+header#cabecalho-artigo h1 {
+	font-family: 'FonteLogo', sans-serif;
+	font-size: 40pt;
+	color: #00306a;
+	text-shadow: 1px 1px 3px solid gray;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+header#cabecalho-artigo h2 {
+	font-family: arial, sans-serif;
+	font-size: 24px;
+	color: #00607d;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+
+header#cabecalho-artigo h3 {
+	font-size: 13pt;
+	color: #528798;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+header#cabecalho-artigo h4 {
+	font-family: arial, sans-serif;
+	color: #528798;
+	margin-left: 362px;
+	margin-top: 0px;
+
+}
+
+h5#data {
+	font-size: 11pt;
+	color:#528798;
+	margin-top: 0px;
+	margin-bottom: 15px; 
+
+}
+
+/* Formatação do menu */
+nav#menu ul {
+	display: block;
+}
+
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: -20px;
+	left: 180px;
+}
+
+nav#menu li {
+	display: inline-block;
+	background-color: #044460;
+	padding: 10px;
+	margin: 0px;
+	transition: background-color 1s;
+}
+
+nav#menu li:hover{
+	background-color: #0085bf;
+}
+
+nav#menu h1 {
+	display: none;
+}
+
+nav#menu a {
+	font-size: 15pt;
+	color: #e5eef2;
+	text-decoration: none;
+}
+
+nav#menu a:hover {
+	color: white;
+}
+
+
+/* Formulário completo */
+form {
+	width: 500px;
+	margin: auto;
+}
+
+legend {
+	color: #00306a;
+	margin-bottom: 0px;
+	padding: 10px;
+	text-shadow: 0px 0px 3px rgba(25,25,25,.3);
+	font-weight: bold;
+	font-size: 14pt;
+	font-family: arial, sans-serif;
+}
+
+input {
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	font-size: 12pt;
+	color: #365c8b;
+	border: 0.5px solid #cad0f1;
+	background-color: rgba(217,223,255,.5);
+}
+
+input:hover {
+	background-color: #01566f;
+	color: #ffffff;
+}
+
+::-webkit-input-placeholder, select {
+   color: #365c8b;
+   text-shadow: 0px 0px 9px solid black;
+}
+
+fieldset {
+	margin: 10px;
+	border: 0.5px solid #000000;
+	background-color: rgba(217,223,255,.5);
+}
+
+fieldset#sexo {
+	text-align: justify;
+	border: none;
+	margin: 10px;
+	width: 110px;
+	padding: 0px;
+}
+
+fieldset#usuario {
+	text-align: justify;
+	padding: 15px;
+}
+
+fieldset#endereco {
+	text-align: justify;
+	border: none;
+	width: 290px;
+	margin: 0px;
+	padding: 0px;
+}
+
+legend#ident {
+	font-size: 18pt;
+}
+
+input#cEnviar {
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	right: 495px;
+	bottom: -700px;
+	border: none;
+	border-radius: 52px 52px 52px 52px;
+}
+
+select#cStts, select#cEst, option {
+	background-color: rgba(217,223,255,.5);
+	background-color: 
+}
+
+/* Rodapé */
+p {
+	text-align: justify ;
+	text-indent: 0px ;
+}
+
+a {
+	color: #00607d;
+	text-align: justify;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+footer#rodape {
+	clear: both;
+	border-top: 1px solid #000000;
+}
+
+footer#rodape p {
+	text-align: center;
+}
+
+/* DOM */
+
+figure#diagrama {
+	position: relative;
+	left: 73px;
+}
+
+/* Respostas */
+
+p {
+	padding: 10px;
+	margin: 10px;
+	margin-right: 15px;
+	text-align: justify;
+	text-indent: 30px;
+}
+
+a#resp{
+	color: #0f155a;
+	margin-left: 375px;
+	font-size: 25px;
+}
