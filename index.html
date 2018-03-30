@@ -13,23 +13,21 @@
 			<img id="icone" src="http://www2.unifap.br/drh/files/2010/04/formul%C3%A1rio1.png"/>
 		</hgroup>
 	<header class="cabecalho-artigo">
- 	<h4>Exercicio - Desenvolvimento Web 01</h4><br><hr>
+ 		<h4>Exercicio - Desenvolvimento Web 01</h4><br><hr>
  	</header>
-  		<aside>
-  		<hgroup class="cabecalho-artigo"><br>
-      		<h1>Formulário</h1>
-      		<h3>Por Shined Angel</h3>
-    		<h5 id="data">Atualizado em 18/03/2018 às 04:59 am</h5>
-</hgroup>
-  	<nav id="menu">
+ 	<nav id="menu">
 		<ul type="disc">
 			<li><a href="index.html">Home</a></li>
 			<li><a href="arvore_dom.html">DOM</a></li>
 			<li><a href="perguntas.html">Questionário</a></li>
 		</ul>
 </nav>
-	
-<form method="post" id="fContato"	action="">
+ 		<hgroup class="cabecalho-artigo"><br>
+     		<h1>Formulário</h1>
+     		<h3>Por Shined Angel</h3>
+	   		<h5 id="data">Atualizado em 18/03/2018 às 04:59 am</h5>
+		</hgroup> 	
+	<form method="post" id="fContato"	action="">
    <fieldset id="usuario"><legend id="ident">Identificação</legend>
     	<p><label for="cNome" required>Nome: </label><input type="text" name="tNome" id="cNome" size="20" maxlength="10" placeholder="Nome"></p>
     		<p><label for="cSobre" required>Sobrenome: </label><input type="text" name="tSobre" id="cSobre" size="20" maxlength="20" placeholder="Sobrenome"></p>
@@ -38,25 +36,25 @@
    	<p><label for="cCPF" required>CPF: <input type="number" name="tCPF" id="cCPF" maxlength="12" placeholder="XXX.XXX.XXX-XX"></label></p>
    <fieldset id="sexo" required><legend>Sexo</legend>
       <input type="radio" name="tSexo" id="cMask"><label for="cMask">Masculino</label><br>
-      	<input type="radio" name="tSexo" id="cFem"><label for="cFem">Feminino</label></fieldset>
-      	   <p><label for="cStts" required>Estado Civil: <select type="Civil" name="tStts" id="cStts">
-        			<option>Solteiro (a)</option>
-        				<option>Casado (a)</option>
-        			<option>Divorciado (a)</option>
-        		<option>Separado (a)</option>
-      	<option>Viúvo (a)</option>
-      </select></label></p>
-   <p><label for="cTel" required>Telefone: <input type="tel" name="tTel" id="cTel" maxlength="10" placeholder="(XX)1001-1002"></label></p>
-      <p><label for="cCel" required>Celular: <input type="tel" name="tCel" id="cCel" maxlength="11" placeholder="(XX)99001-1002"></label></p>
+     		<input type="radio" name="tSexo" id="cFem"><label for="cFem">Feminino</label></fieldset>
+     	   <p><label for="cStts" required>Estado Civil: <select type="Civil" name="tStts" id="cStts">
+       			<option>Solteiro (a)</option>
+     					<option>Casado (a)</option>
+       					<option>Divorciado (a)</option>
+        			<option>Separado (a)</option>
+      		<option>Viúvo (a)</option>
+    	</select></label></p>
+  <p><label for="cTel" required>Telefone: <input type="tel" name="tTel" id="cTel" maxlength="10" placeholder="(XX)1001-1002"></label></p>
+     <p><label for="cCel" required>Celular: <input type="tel" name="tCel" id="cCel" maxlength="11" placeholder="(XX)99001-1002"></label></p>
     		<p><label for="cEmail" required>E-mail: </label><input type="E-mail" name="tEmail" id="cEmail" size="20" maxlength="60" placeholder="seu@email.com"></p>
-	<fieldset id="endereco" required><legend>Endereço</legend>
-	   <p><label for="cRua">Logradouro: <input type="text" name="tRua" id="cRua" size="14" maxlength="15" placeholder="Rua, Av, Trav..."></label></p>
-	    	<p><label for="cCom" required>Complemento: <input type="text" name="tCom" id="cCom" size="15" maxlength="15" placeholder="Casa, Apto..."></label></p>
-	    		<p><label for="cNum" required>Número: <input type="number" name="tNum" id="cNum" size="30" maxlength="10" min="0" max="999999" placeholder="0000"></label></p>
-	    			<p><label for="cEst" required>Estado: <select name="tEst" id="cEst"></label> 
-	    		<option selected>Minas Gerais</option>
-	    	<option>Rio de Janeiro</option> 
-	    <option>São Paulo</option> 
+			<fieldset id="endereco" required><legend>Endereço</legend>
+	  <p><label for="cRua">Logradouro: <input type="text" name="tRua" id="cRua" size="14" maxlength="15" placeholder="Rua, Av, Trav..."></label></p>
+	   	<p><label for="cCom" required>Complemento: <input type="text" name="tCom" id="cCom" size="15" maxlength="15" placeholder="Casa, Apto..."></label></p>
+	   		<p><label for="cNum" required>Número: <input type="number" name="tNum" id="cNum" size="30" maxlength="10" min="0" max="999999" placeholder="0000"></label></p>
+	   			<p><label for="cEst" required>Estado: <select name="tEst" id="cEst"></label> 
+	   		<option selected>Minas Gerais</option>
+	   	<option>Rio de Janeiro</option> 
+	  <option>São Paulo</option> 
 </select></p>
   	<p><label for="cCid" required>Cidade: </label><input type="text" name="tCid" id="cCid" maxlength="40" size="20" placeholder="Sua Cidade" list="cidades"/></p>
   		<datalist id="cidades">
@@ -85,10 +83,10 @@
 </form>
 <footer id="rodape"><br>
 	<p>Copyright <b>&copy;</b> 2018 – by <em>Shined Angel</em><br>
-		<a href="https://github.com/barbiierror" target="_blank">GitHub</a> | <a href="https://codepen.io/barbiierror/" target="_blank">Codepen</p></a>
-			</footer>
-		</header>
-	</div>
-</aside>
-</body>
+		<a href="https://github.com/barbiierror" target="_blank">GitHub</a> | 
+			<a href="https://codepen.io/barbiierror/" target="_blank">Codepen</p></a>
+				</footer>
+			</header>
+		</div>
+	</body>
 </html>
